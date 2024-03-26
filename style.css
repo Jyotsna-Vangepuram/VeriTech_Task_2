@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    position: fixed;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: 	#FF8C00;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.one{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.two{
+    width: 100%;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.two ul li {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px;
+}
+.two ul li:hover{
+    background-color: #ed4d08;
+    border-radius: 10px;
+}
+.two ul li a {
+    text-decoration: none;
+    color: black;
+ 
+}
+.second{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: 	#FFA500;
+    padding-top: 100px;
+}
+.part1{
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+}
+.part2{
+    width: 100%;
+    height: 400px;
+}
+img{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+    background-repeat: cover;
+
+}
+#image{
+    border-radius: 30%;
+}
+.car-heading{
+    font-size: 30px;
+    font-weight: bold;
+    /* text-align: center; */
+    padding-left: 40px;
+}
+.car-matter{
+    text-indent: 50px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #FF8C00;
+}
+.bx{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+span{
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
